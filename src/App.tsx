@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import SimpleCount from './Pages/SimpleCount';
-// import './style/styles.css';
+import './style/styles.css';
 import Movie from './Pages/Movie';
 import MovieDetails from './Pages/MovieDetails';
 import Contact from './Pages/Contact';
