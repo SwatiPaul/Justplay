@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+// import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import SimpleCount from './Pages/SimpleCount';
 import './style/styles.css';
 import Movie from './Pages/Movie';
@@ -18,7 +19,8 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
+      <HashRouter>
         <Routes>
           {/* <Route path='' element={<SimpleCount/>} /> */}
           <Route path='/' element={<Movie/>} />
@@ -26,11 +28,9 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/newRelease" element={<NewRelease/>} />
           <Route path="/login" element={<LogIn/>} />
-
-
-
         </Routes>
-      </BrowserRouter>
+        </HashRouter>
+      {/* </BrowserRouter> */}
     </div>
   );
 }
