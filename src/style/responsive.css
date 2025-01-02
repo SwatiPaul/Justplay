@@ -26,6 +26,7 @@
   }
   .hero_section{
     padding: 0 10px;
+    min-height: 450px !important;
   }
   .search_field .form-group{
     width: 100% !important;
