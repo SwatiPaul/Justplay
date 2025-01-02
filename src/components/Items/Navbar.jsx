@@ -40,7 +40,7 @@ const NavItem = () => {
               <Nav.Link as={Link} to="/newRelease">New Release</Nav.Link>
               <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             </Nav>
-            <div className="">
+            <div className="navbar-theme">
             <div className="d-flex gap-3">
               <button className="add_cart">
                 <i className="bi bi-bag"></i>

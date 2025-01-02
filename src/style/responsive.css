@@ -48,4 +48,10 @@
   .similar_content{
     padding: 0 20px;
   }
+  .navbar-theme{
+    display: block !important;
+  }
+  .hero_section{
+    min-height: 450px !important;
+  }
 }

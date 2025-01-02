@@ -58,6 +58,10 @@ body {
 .navbar_position nav {
     height: 70px;
 }
+.navbar-theme{
+    display: flex;
+    gap: 20px;
+}
 
 
 /* Movies */
@@ -66,7 +70,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 450px;
+    min-height: 500px;
     height: calc(100vh / 2.5);
     max-height: 360px;
     width: 100%;
