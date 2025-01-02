@@ -5,6 +5,7 @@ import './App.css';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import SimpleCount from './Pages/SimpleCount';
 import './style/styles.css';
+import './style/responsive.css';
 import Movie from './Pages/Movie';
 import MovieDetails from './Pages/MovieDetails';
 import Contact from './Pages/Contact';
