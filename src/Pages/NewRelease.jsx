@@ -55,6 +55,7 @@ const NewRelease = () => {
           </Row>
         </Container>
       </div>
+      <Footer/>
     </>
   );
 };

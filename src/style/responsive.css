@@ -1,0 +1,51 @@
+@media only screen and (max-width: 768px) {
+  .hero_inner h1,
+  h2 {
+    line-height: 35px;
+  }
+  .collapse-resp{
+    background: var(--bg-color);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+}
+.navbar-collapse{
+    align-items: flex-start !important;
+  }
+  .collapse-resp .d-flex{
+    display: inline-flex !important;
+    padding: 10px 0;
+  }
+  .login-inner{
+    width: 95vw !important;
+  }
+  .hero_section{
+    padding: 0 10px;
+  }
+  .search_field .form-group{
+    width: 100% !important;
+  }
+  .search_field .form-group i{
+    right: 8px !important;
+  }
+  .movie_showcase_inside{
+    padding: 5px 10px !important;
+  }
+  .movie_details_text iframe{
+    width: 100%;
+  }
+  /* a.nav-link{
+    color: var(--text-color);
+  } */
+  .movie_details_text{
+    padding: 50px 0 0px;
+  }
+  .similar_content{
+    padding: 0 20px;
+  }
+}

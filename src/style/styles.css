@@ -403,7 +403,7 @@ footer .row {
 }
 
 .logo-brand i {
-    color: yellow;
+    color: #d5d50e;
     font-size: 40px;
 }
 
@@ -419,7 +419,7 @@ footer .row {
 
 a.nav-link {
     font-size: 16px;
-    /* color: #e4e4e4; */
+    /* color: var(--text-color); */
 }
 .toggle_btn{
     border: none;
