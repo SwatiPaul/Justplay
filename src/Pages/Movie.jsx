@@ -16,13 +16,13 @@ const Movie = () => {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
   const [play, setPlay] = useState([]);
-  console.log("play", play);
+  // console.log("play", play);
   const [rated, setRated] = useState([]);
   const [upcoming, setUpcoming] = useState([]);
-  console.log("upcoming", upcoming);
+  // console.log("upcoming", upcoming);
   const navigate = useNavigate();
   const [fetched, setFetched] = useState([]);
-  console.log("parent fetched", fetched);
+  // console.log("parent fetched", fetched);
  
   
 

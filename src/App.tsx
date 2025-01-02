@@ -24,7 +24,7 @@ function App() {
         <Routes>
           {/* <Route path='' element={<SimpleCount/>} /> */}
           <Route path='/' element={<Movie/>} />
-          {/* <Route path="/movie_details/:id" element={<MovieDetails/>} /> */}
+          <Route path="/movie_details/:id" element={<MovieDetails/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/newRelease" element={<NewRelease/>} />
           <Route path="/login" element={<LogIn/>} />
