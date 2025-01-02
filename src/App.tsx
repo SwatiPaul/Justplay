@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import SimpleCount from './Pages/SimpleCount';
-import './style/styles.css'
+// import './style/styles.css';
 import Movie from './Pages/Movie';
 import MovieDetails from './Pages/MovieDetails';
 import Contact from './Pages/Contact';
@@ -12,12 +12,16 @@ import LogIn from './Pages/LogIn';
 
 function App() {
 
+  useEffect(() => {
+    console.log('App is running');
+  }, []);
+
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
           {/* <Route path='' element={<SimpleCount/>} /> */}
-          <Route path='' element={<Movie/>} />
+          <Route path='/' element={<Movie/>} />
           <Route path="/movie_details/:id" element={<MovieDetails/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/newRelease" element={<NewRelease/>} />
